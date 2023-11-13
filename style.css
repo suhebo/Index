@@ -1,0 +1,429 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo i{
+    font-size: 30px;
+    background-color: rgb(81, 67, 50);
+    height: 27px;
+    width: 23px;
+   padding: 20px;
+    border-radius: 25px;
+}
+.header {
+padding: 10px 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.header ul{
+    margin-left: 130px;
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    padding: 0px 30px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.header ul li:hover {
+    text-decoration: underline;
+}
+
+.bnt{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.hero{
+   margin: 10px 50px;
+   border-radius: 16px;
+    height: 500px;
+    background-image: url(https://digital.ihg.com/is/image/ihg/garner-exterior-4x3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 70px;
+}
+
+.right-side{
+    border-radius: 22px;
+    margin-top: 120px;
+    padding: 12px;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.left-side {
+    margin-top: 120px;
+    width: 650px;
+
+}
+
+.left-side h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+.left-side p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.locationinput {
+    margin-bottom: 10px;
+    outline: none;
+    padding: 6px;
+    height: 35px;
+    width: 250px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.right-side p{
+    margin-bottom: 20px;
+}
+
+
+
+
+.right-side button{
+width: 250px;
+padding: 12px;
+background-color: rgb(122, 102, 64);
+border: none;
+border-radius: 28px;
+color: whitesmoke;
+font-size: 21px;
+margin-top: 25px;
+
+}
+
+.input-parent{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.left-input input{
+    height: 40px;
+    width: 120px;
+    border-radius: 9px;
+    border: none;
+    background-color: aliceblue;
+}
+
+
+
+.partner-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+}
+
+.left-partner{
+    width: 370px;
+}
+
+.right-partner img{
+
+    width: 100px;
+    height: 200px;
+    
+}
+
+.offer{
+    background-color:rgb(202, 227, 247);
+    height: 500px;
+
+}
+
+.offer-title-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.left-offer h4{
+    color: orange;
+}
+.left-offer h1{
+    font-size: 60px;
+}
+
+.offer-title-parent h3{
+    margin-top: 40px;
+    color: orange;
+    font-size: 18px;
+}
+
+
+
+.box{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    border-radius: 18px;
+    padding: 12px;
+    
+
+}
+
+.box-parent{
+    justify-content: space-around;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    
+
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    border-radius: 13px;
+}
+
+.box h3{
+    margin-top: 8px;
+}
+
+.info-parent{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-parent i{
+    color: orange;
+}
+
+.price-parent{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-parent{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-benefit{
+    width: 500px;
+    
+}
+.left-benefit .img1{
+    background-image: url("images/group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 430px;
+    background-color: rgb(145, 97, 39);
+}
+
+.left-benefit{
+    position: relative;
+    
+}
+
+.left-benefit .img2 {
+    background-image: url("images/hotel.png");
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px;
+    border-radius: 22px;
+    right: -90px;
+    border: 6px white solid;
+}
+
+.font{
+    gap: 23px;
+    display:flex ;
+    padding-top:23px ;
+}
+
+.font i{
+    margin-top: 20px;
+    
+}
+
+.food{
+    text-align: center;
+    padding: 20px ;
+    margin-top: 50px;
+    
+}
+.food h4{
+    color: rgb(194, 157, 62);
+    
+
+}
+
+.food h1{
+    font-size: 24px;
+    color: black;
+    
+}
+
+.food p{
+    color: rgb(158, 155, 155);
+}
+
+
+.end{
+    position: relative;
+    margin: 50px 20px;
+    justify-content: space-evenly;
+    height: 434px;
+    display: flex;
+}
+
+.end img{
+    width: 523px;
+    height: 378px;
+    border-radius: 22px;
+    
+}
+
+.right-review h3{
+        
+    font-size: 35px;
+    color: rgb(161, 137, 82);
+    
+}
+.right-review h2{
+    font-size: 45px;
+}
+
+.box-review{
+    margin-top: 20px;
+    position: absolute;
+    right: 250px;
+    top: 130px;
+    line-height: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.right-review h1 {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.suhepa-parent{
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 50px;
+}
+.right-s{
+    justify-content: space-between;
+
+    display: flex;
+}
+ .run {
+    border-radius: 4px;
+    border: 2px rgb(227, 224, 224) solid;
+
+}
+.left-s{
+    line-height: 100px;
+}
+.left-s p{
+    color: rgb(158, 155, 155);
+}
+
+
+
+
+
+.footer{
+    padding: 40px;
+    background-color: black;
+    height: 400px;
+    color: white;
+}
+
+.newsletter-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.email input {
+    border: none;
+    outline: none;
+}
+
+.email button{
+    background-color: rgb(184, 118, 64);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.link-parent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-links {
+    
+    display: flex;
+    gap: 70px;
+}
+
+.right-links h3{
+    margin-bottom: 24px;
+
+}
+
+.right-links p{
+    margin-bottom: 18px;
+}
